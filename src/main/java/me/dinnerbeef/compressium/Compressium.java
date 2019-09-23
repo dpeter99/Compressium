@@ -3,7 +3,6 @@ package me.dinnerbeef.compressium;
 import me.dinnerbeef.compressium.blocks.Cobble.Cobble_1;
 import me.dinnerbeef.compressium.blocks.Cobble.Cobble_2;
 import me.dinnerbeef.compressium.blocks.ModBlocks;
-import me.dinnerbeef.compressium.items.Cobble.Cobble_Ingot_1;
 import me.dinnerbeef.compressium.setup.ClientProxy;
 import me.dinnerbeef.compressium.setup.IProxy;
 import me.dinnerbeef.compressium.setup.ServerProxy;
@@ -20,7 +19,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod("assets/compressium")
+@Mod("compressium")
 public class Compressium {
 
     public static IProxy proxy = DistExecutor.runForDist(() -> ClientProxy::new, () -> ServerProxy::new);
@@ -51,7 +50,6 @@ public class Compressium {
     public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
         event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_1, new Item.Properties()).setRegistryName("cobble_1"));
         event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_2, new Item.Properties()).setRegistryName("cobble_2"));
-        event.getRegistry().register((new Cobble_Ingot_1()));
     }
     }
 }
