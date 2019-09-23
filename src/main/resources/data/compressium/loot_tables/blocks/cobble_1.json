@@ -3,7 +3,6 @@
   "pools": [
     {
       "rolls": 1,
-      "name": "compressium:cobble_1",
       "entries": [
         {
           "type": "minecraft:item",

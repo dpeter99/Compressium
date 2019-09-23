@@ -1,3 +1,4 @@
+
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
@@ -7,10 +8,10 @@
   ],
   "key": {
     "x": {
-      "item": "minecraft:cobblestone"
+      "item": "compressium:cobble_1"
     }
   },
   "result": {
-    "item": "compressium:cobble_1"
+    "item": "compressium:cobble_2"
   }
 }
