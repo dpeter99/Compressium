@@ -1,4 +1,7 @@
 {
   "block.compressium.cobble_1": "Compressed Cobble (1x)",
-  "block.compressium.cobble_2": "Compressed Cobble (2x)"
+  "block.compressium.cobble_2": "Compressed Cobble (2x)",
+  "block.compressium.cobble_3": "Compressed Cobble (3x)",
+  "block.compressium.cobble_4": "Compressed Cobble (4x)",
+  "block.compressium.cobble_5": "Compressed Cobble (5x)"
 }

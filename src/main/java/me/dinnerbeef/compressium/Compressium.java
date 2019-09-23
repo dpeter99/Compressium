@@ -1,7 +1,6 @@
 package me.dinnerbeef.compressium;
 
-import me.dinnerbeef.compressium.blocks.Cobble.Cobble_1;
-import me.dinnerbeef.compressium.blocks.Cobble.Cobble_2;
+import me.dinnerbeef.compressium.blocks.Cobble.*;
 import me.dinnerbeef.compressium.blocks.ModBlocks;
 import me.dinnerbeef.compressium.setup.ClientProxy;
 import me.dinnerbeef.compressium.setup.IProxy;
@@ -43,6 +42,9 @@ public class Compressium {
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> event) {
             event.getRegistry().register(new Cobble_1());
             event.getRegistry().register(new Cobble_2());
+            event.getRegistry().register(new Cobble_3());
+            event.getRegistry().register(new Cobble_4());
+            event.getRegistry().register(new Cobble_5());
         }
 
 
@@ -50,6 +52,9 @@ public class Compressium {
     public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
         event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_1, new Item.Properties()).setRegistryName("cobble_1"));
         event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_2, new Item.Properties()).setRegistryName("cobble_2"));
+        event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_3, new Item.Properties()).setRegistryName("cobble_3"));
+        event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_4, new Item.Properties()).setRegistryName("cobble_4"));
+        event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_5, new Item.Properties()).setRegistryName("cobble_5"));
     }
     }
 }
