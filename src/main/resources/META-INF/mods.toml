@@ -29,10 +29,7 @@ credits="Thanks for all the people that helped me make this mod" #optional
 authors="Clay Is Balnaced" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-This
-Will
-Come
-Later
+ALL HAIL THE GOD OF MODDING CPW
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.compressium]] #optional
