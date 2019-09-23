@@ -11,7 +11,6 @@ public class Cobble_1 extends Block {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.STONE)
                 .hardnessAndResistance(2.0f)
-                .slipperiness(-1)
 
 
 
