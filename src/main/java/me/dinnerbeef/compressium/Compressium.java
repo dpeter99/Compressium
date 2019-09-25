@@ -2,6 +2,7 @@ package me.dinnerbeef.compressium;
 
 import me.dinnerbeef.compressium.blocks.Cobble.*;
 import me.dinnerbeef.compressium.blocks.ModBlocks;
+import me.dinnerbeef.compressium.blocks.Sand.*;
 import me.dinnerbeef.compressium.setup.ClientProxy;
 import me.dinnerbeef.compressium.setup.IProxy;
 import me.dinnerbeef.compressium.setup.ServerProxy;
@@ -45,6 +46,21 @@ public class Compressium {
             event.getRegistry().register(new Cobble_3());
             event.getRegistry().register(new Cobble_4());
             event.getRegistry().register(new Cobble_5());
+            event.getRegistry().register(new Cobble_6());
+            event.getRegistry().register(new Cobble_7());
+            event.getRegistry().register(new Cobble_8());
+            event.getRegistry().register(new Cobble_9());
+
+            event.getRegistry().register(new Sand_1());
+            event.getRegistry().register(new Sand_2());
+            event.getRegistry().register(new Sand_3());
+            event.getRegistry().register(new Sand_4());
+            event.getRegistry().register(new Sand_5());
+            event.getRegistry().register(new Sand_6());
+            event.getRegistry().register(new Sand_7());
+            event.getRegistry().register(new Sand_8());
+            event.getRegistry().register(new Sand_9());
+
         }
 
 
@@ -55,6 +71,22 @@ public class Compressium {
         event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_3, new Item.Properties()).setRegistryName("cobble_3"));
         event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_4, new Item.Properties()).setRegistryName("cobble_4"));
         event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_5, new Item.Properties()).setRegistryName("cobble_5"));
+        event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_6, new Item.Properties()).setRegistryName("cobble_6"));
+        event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_7, new Item.Properties()).setRegistryName("cobble_7"));
+        event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_8, new Item.Properties()).setRegistryName("cobble_8"));
+        event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_9, new Item.Properties()).setRegistryName("cobble_9"));
+
+
+        event.getRegistry().register(new BlockItem(ModBlocks.SAND_1, new Item.Properties()).setRegistryName("sand_1"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SAND_2, new Item.Properties()).setRegistryName("sand_2"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SAND_3, new Item.Properties()).setRegistryName("sand_3"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SAND_4, new Item.Properties()).setRegistryName("sand_4"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SAND_5, new Item.Properties()).setRegistryName("sand_5"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SAND_6, new Item.Properties()).setRegistryName("sand_6"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SAND_7, new Item.Properties()).setRegistryName("sand_7"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SAND_8, new Item.Properties()).setRegistryName("sand_8"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SAND_9, new Item.Properties()).setRegistryName("sand_9"));
+
     }
     }
 }
