@@ -1,11 +1,14 @@
 package me.dinnerbeef.compressium.blocks.Sand;
 
 
+import net.minecraft.block.AnvilBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.FallingBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.entity.item.FallingBlockEntity;
 
-public class Sand_8 extends Block {
+public class Sand_8 extends FallingBlock {
 
     public Sand_8() {
         super(Properties.create(Material.SAND)
@@ -13,6 +16,9 @@ public class Sand_8 extends Block {
                 .hardnessAndResistance(2.0f)
         );
         setRegistryName("sand_8");
+    }
 
+    protected void onStartFalling(FallingBlockEntity fallingEntity) {
+        fallingEntity.setHurtEntities(true);
     }
 }

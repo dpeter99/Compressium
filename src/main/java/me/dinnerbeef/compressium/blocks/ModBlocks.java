@@ -1,6 +1,7 @@
 package me.dinnerbeef.compressium.blocks;
 
 import me.dinnerbeef.compressium.blocks.Cobble.*;
+import me.dinnerbeef.compressium.blocks.Gravel.*;
 import me.dinnerbeef.compressium.blocks.Sand.*;
 import net.minecraftforge.registries.ObjectHolder;
 
@@ -64,6 +65,33 @@ public class ModBlocks {
     public static Sand_9 SAND_9;
 
 
+
+    @ObjectHolder("compressium:gravel_1")
+    public static Gravel_1 GRAVEL_1;
+
+    @ObjectHolder("compressium:gravel_2")
+    public static Gravel_2 GRAVEL_2;
+
+    @ObjectHolder("compressium:gravel_3")
+    public static Gravel_3 GRAVEL_3;
+
+    @ObjectHolder("compressium:gravel_4")
+    public static Gravel_4 GRAVEL_4;
+
+    @ObjectHolder("compressium:gravel_5")
+    public static Gravel_5 GRAVEL_5;
+
+    @ObjectHolder("compressium:gravel_6")
+    public static Gravel_6 GRAVEL_6;
+
+    @ObjectHolder("compressium:gravel_7")
+    public static Gravel_7 GRAVEL_7;
+
+    @ObjectHolder("compressium:gravel_8")
+    public static Gravel_8 GRAVEL_8;
+
+    @ObjectHolder("compressium:gravel_9")
+    public static Gravel_9 GRAVEL_9;
 
 
 }

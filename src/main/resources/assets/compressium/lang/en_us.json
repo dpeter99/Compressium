@@ -8,6 +8,7 @@
   "block.compressium.cobble_7": "Compressed Cobble (7x)",
   "block.compressium.cobble_8": "Compressed Cobble (8x)",
   "block.compressium.cobble_9": "Compressed Cobble (9x)",
+
   "block.compressium.sand_1": "Compressed Sand (1x)",
   "block.compressium.sand_2": "Compressed Sand (2x)",
   "block.compressium.sand_3": "Compressed Sand (3x)",
@@ -16,5 +17,15 @@
   "block.compressium.sand_6": "Compressed Sand (6x)",
   "block.compressium.sand_7": "Compressed Sand (7x)",
   "block.compressium.sand_8": "Compressed Sand (8x)",
-  "block.compressium.sand_9": "Compressed Sand (9x)"
+  "block.compressium.sand_9": "Compressed Sand (9x)",
+
+  "block.compressium.gravel_1": "Compressed Gravel (1x)",
+  "block.compressium.gravel_2": "Compressed Gravel (2x)",
+  "block.compressium.gravel_3": "Compressed Gravel (3x)",
+  "block.compressium.gravel_4": "Compressed Gravel (4x)",
+  "block.compressium.gravel_5": "Compressed Gravel (5x)",
+  "block.compressium.gravel_6": "Compressed Gravel (6x)",
+  "block.compressium.gravel_7": "Compressed Gravel (7x)",
+  "block.compressium.gravel_8": "Compressed Gravel (8x)",
+  "block.compressium.gravel_9": "Compressed Gravel (9x)"
 }
