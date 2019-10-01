@@ -1,4 +1,6 @@
 {
+  "itemGroup.compressium.compressium": "Compressium",
+
   "block.compressium.cobble_1": "Compressed Cobble (1x)",
   "block.compressium.cobble_2": "Compressed Cobble (2x)",
   "block.compressium.cobble_3": "Compressed Cobble (3x)",
@@ -27,5 +29,15 @@
   "block.compressium.gravel_6": "Compressed Gravel (6x)",
   "block.compressium.gravel_7": "Compressed Gravel (7x)",
   "block.compressium.gravel_8": "Compressed Gravel (8x)",
-  "block.compressium.gravel_9": "Compressed Gravel (9x)"
+  "block.compressium.gravel_9": "Compressed Gravel (9x)",
+
+  "block.compressium.stone_1": "Compressed Stone (1x)",
+  "block.compressium.stone_2": "Compressed Stone (2x)",
+  "block.compressium.stone_3": "Compressed Stone (3x)",
+  "block.compressium.stone_4": "Compressed Stone (4x)",
+  "block.compressium.stone_5": "Compressed Stone (5x)",
+  "block.compressium.stone_6": "Compressed Stone (6x)",
+  "block.compressium.stone_7": "Compressed Stone (7x)",
+  "block.compressium.stone_8": "Compressed Stone (8x)",
+  "block.compressium.stone_9": "Compressed Stone (9x)"
 }

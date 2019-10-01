@@ -4,6 +4,7 @@ import me.dinnerbeef.compressium.blocks.Cobble.*;
 import me.dinnerbeef.compressium.blocks.Gravel.*;
 import me.dinnerbeef.compressium.blocks.ModBlocks;
 import me.dinnerbeef.compressium.blocks.Sand.*;
+import me.dinnerbeef.compressium.blocks.Stone.*;
 import me.dinnerbeef.compressium.setup.ClientProxy;
 import me.dinnerbeef.compressium.setup.IProxy;
 import me.dinnerbeef.compressium.setup.ServerProxy;
@@ -27,9 +28,10 @@ import static net.minecraftforge.versions.forge.ForgeVersion.MOD_ID;
 @Mod("compressium")
 public class Compressium {
 
+    public static final String MOD_ID = "compressium";
     public static IProxy proxy = DistExecutor.runForDist(() -> ClientProxy::new, () -> ServerProxy::new);
 
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
 
     public Compressium() {
         // Register the setup method for modloading
@@ -83,6 +85,16 @@ public class Compressium {
             event.getRegistry().register(new Gravel_8());
             event.getRegistry().register(new Gravel_9());
 
+            event.getRegistry().register(new Stone_1());
+            event.getRegistry().register(new Stone_2());
+            event.getRegistry().register(new Stone_3());
+            event.getRegistry().register(new Stone_4());
+            event.getRegistry().register(new Stone_5());
+            event.getRegistry().register(new Stone_6());
+            event.getRegistry().register(new Stone_7());
+            event.getRegistry().register(new Stone_8());
+            event.getRegistry().register(new Stone_9());
+
         }
 
 
@@ -118,6 +130,17 @@ public class Compressium {
         event.getRegistry().register(new BlockItem(ModBlocks.GRAVEL_7, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("gravel_7"));
         event.getRegistry().register(new BlockItem(ModBlocks.GRAVEL_8, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("gravel_8"));
         event.getRegistry().register(new BlockItem(ModBlocks.GRAVEL_9, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("gravel_9"));
+
+        event.getRegistry().register(new BlockItem(ModBlocks.STONE_1, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("stone_1"));
+        event.getRegistry().register(new BlockItem(ModBlocks.STONE_2, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("stone_2"));
+        event.getRegistry().register(new BlockItem(ModBlocks.STONE_3, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("stone_3"));
+        event.getRegistry().register(new BlockItem(ModBlocks.STONE_4, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("stone_4"));
+        event.getRegistry().register(new BlockItem(ModBlocks.STONE_5, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("stone_5"));
+        event.getRegistry().register(new BlockItem(ModBlocks.STONE_6, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("stone_6"));
+        event.getRegistry().register(new BlockItem(ModBlocks.STONE_7, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("stone_7"));
+        event.getRegistry().register(new BlockItem(ModBlocks.STONE_8, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("stone_8"));
+        event.getRegistry().register(new BlockItem(ModBlocks.STONE_9, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("stone_9"));
+
 
     }
     }
