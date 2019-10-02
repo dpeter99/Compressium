@@ -13,7 +13,8 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.14-1.0.3-Forge'
+def ENV = System.getenv()
+version = ENV.BUILD_NUMBER ? "${mod_version}.${ENV.BUILD_NUMBER}" : "${mod_version}.custom"
 group = 'me.dinnerbeef.compressium' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'Compressium'
 
