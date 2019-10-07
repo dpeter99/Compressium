@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "compressium:cobble_5"
+  },
+  "result": "compressium:stone_5",
+  "experience": 5,
+  "cookingtime": 700
+}
