@@ -39,5 +39,46 @@
   "block.compressium.stone_6": "Compressed Stone (6x)",
   "block.compressium.stone_7": "Compressed Stone (7x)",
   "block.compressium.stone_8": "Compressed Stone (8x)",
-  "block.compressium.stone_9": "Compressed Stone (9x)"
+  "block.compressium.stone_9": "Compressed Stone (9x)",
+
+  "block.compressium.iron_1": "Compressed Iron (1x)",
+  "block.compressium.iron_2": "Compressed Iron (2x)",
+  "block.compressium.iron_3": "Compressed Iron (3x)",
+  "block.compressium.iron_4": "Compressed Iron (4x)",
+  "block.compressium.iron_5": "Compressed Iron (5x)",
+  "block.compressium.iron_6": "Compressed Iron (6x)",
+  "block.compressium.iron_7": "Compressed Iron (7x)",
+  "block.compressium.iron_8": "Compressed Iron (8x)",
+  "block.compressium.iron_9": "Compressed Iron (9x)",
+
+  "block.compressium.gold_1": "Compressed Gold (1x)",
+  "block.compressium.gold_2": "Compressed Gold (2x)",
+  "block.compressium.gold_3": "Compressed Gold (3x)",
+  "block.compressium.gold_4": "Compressed Gold (4x)",
+  "block.compressium.gold_5": "Compressed Gold (5x)",
+  "block.compressium.gold_6": "Compressed Gold (6x)",
+  "block.compressium.gold_7": "Compressed Gold (7x)",
+  "block.compressium.gold_8": "Compressed Gold (8x)",
+  "block.compressium.gold_9": "Compressed Gold (9x)",
+
+  "block.compressium.diamond_1": "Compressed Diamond (1x)",
+  "block.compressium.diamond_2": "Compressed Diamond (2x)",
+  "block.compressium.diamond_3": "Compressed Diamond (3x)",
+  "block.compressium.diamond_4": "Compressed Diamond (4x)",
+  "block.compressium.diamond_5": "Compressed Diamond (5x)",
+  "block.compressium.diamond_6": "Compressed Diamond (6x)",
+  "block.compressium.diamond_7": "Compressed Diamond (7x)",
+  "block.compressium.diamond_8": "Compressed Diamond (8x)",
+  "block.compressium.diamond_9": "Compressed Diamond (9x)",
+
+  "block.compressium.emerald_1": "Compressed Emerald (1x)",
+  "block.compressium.emerald_2": "Compressed Emerald (2x)",
+  "block.compressium.emerald_3": "Compressed Emerald (3x)",
+  "block.compressium.emerald_4": "Compressed Emerald (4x)",
+  "block.compressium.emerald_5": "Compressed Emerald (5x)",
+  "block.compressium.emerald_6": "Compressed Emerald (6x)",
+  "block.compressium.emerald_7": "Compressed Emerald (7x)",
+  "block.compressium.emerald_8": "Compressed Emerald (8x)",
+  "block.compressium.emerald_9": "Compressed Emerald (9x)"
+
 }

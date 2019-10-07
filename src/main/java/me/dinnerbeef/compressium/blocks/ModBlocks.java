@@ -1,9 +1,14 @@
 package me.dinnerbeef.compressium.blocks;
 
 import me.dinnerbeef.compressium.blocks.Cobble.*;
+import me.dinnerbeef.compressium.blocks.Diamond.*;
+import me.dinnerbeef.compressium.blocks.Emerald.*;
+import me.dinnerbeef.compressium.blocks.Gold.*;
+import me.dinnerbeef.compressium.blocks.Iron.*;
 import me.dinnerbeef.compressium.blocks.Gravel.*;
 import me.dinnerbeef.compressium.blocks.Sand.*;
 import me.dinnerbeef.compressium.blocks.Stone.*;
+
 import net.minecraftforge.registries.ObjectHolder;
 
 public class ModBlocks {
@@ -122,5 +127,121 @@ public class ModBlocks {
 
     @ObjectHolder("compressium:stone_9")
     public static Stone_9 STONE_9;
+
+// Iron
+
+    @ObjectHolder("compressium:iron_1")
+    public static Iron_1 IRON_1;
+
+    @ObjectHolder("compressium:iron_2")
+    public static Iron_2 IRON_2;
+
+    @ObjectHolder("compressium:iron_3")
+    public static Iron_3 IRON_3;
+
+    @ObjectHolder("compressium:iron_4")
+    public static Iron_4 IRON_4;
+
+    @ObjectHolder("compressium:iron_5")
+    public static Iron_5 IRON_5;
+
+    @ObjectHolder("compressium:iron_6")
+    public static Iron_6 IRON_6;
+
+    @ObjectHolder("compressium:iron_7")
+    public static Iron_7 IRON_7;
+
+    @ObjectHolder("compressium:iron_8")
+    public static Iron_8 IRON_8;
+
+    @ObjectHolder("compressium:iron_9")
+    public static Iron_9 IRON_9;
+
+// Gold
+
+    @ObjectHolder("compressium:gold_1")
+    public static Gold_1 GOLD_1;
+
+    @ObjectHolder("compressium:gold_2")
+    public static Gold_2 GOLD_2;
+
+    @ObjectHolder("compressium:gold_3")
+    public static Gold_3 GOLD_3;
+
+    @ObjectHolder("compressium:gold_4")
+    public static Gold_4 GOLD_4;
+
+    @ObjectHolder("compressium:gold_5")
+    public static Gold_5 GOLD_5;
+
+    @ObjectHolder("compressium:gold_6")
+    public static Gold_6 GOLD_6;
+
+    @ObjectHolder("compressium:gold_7")
+    public static Gold_7 GOLD_7;
+
+    @ObjectHolder("compressium:gold_8")
+    public static Gold_8 GOLD_8;
+
+    @ObjectHolder("compressium:gold_9")
+    public static Gold_9 GOLD_9;
+
+// Diamond
+
+    @ObjectHolder("compressium:diamond_1")
+    public static Diamond_1 DIAMOND_1;
+
+    @ObjectHolder("compressium:diamond_2")
+    public static Diamond_2 DIAMOND_2;
+
+    @ObjectHolder("compressium:diamond_3")
+    public static Diamond_3 DIAMOND_3;
+
+    @ObjectHolder("compressium:diamond_4")
+    public static Diamond_4 DIAMOND_4;
+
+    @ObjectHolder("compressium:diamond_5")
+    public static Diamond_5 DIAMOND_5;
+
+    @ObjectHolder("compressium:diamond_6")
+    public static Diamond_6 DIAMOND_6;
+
+    @ObjectHolder("compressium:diamond_7")
+    public static Diamond_7 DIAMOND_7;
+
+    @ObjectHolder("compressium:diamond_8")
+    public static Diamond_8 DIAMOND_8;
+
+    @ObjectHolder("compressium:diamond_9")
+    public static Diamond_9 DIAMOND_9;
+
+// Diamond
+
+    @ObjectHolder("compressium:emerald_1")
+    public static Emerald_1 EMERALD_1;
+
+    @ObjectHolder("compressium:emerald_2")
+    public static Emerald_2 EMERALD_2;
+
+    @ObjectHolder("compressium:emerald_3")
+    public static Emerald_3 EMERALD_3;
+
+    @ObjectHolder("compressium:emerald_4")
+    public static Emerald_4 EMERALD_4;
+
+    @ObjectHolder("compressium:emerald_5")
+    public static Emerald_5 EMERALD_5;
+
+    @ObjectHolder("compressium:emerald_6")
+    public static Emerald_6 EMERALD_6;
+
+    @ObjectHolder("compressium:emerald_7")
+    public static Emerald_7 EMERALD_7;
+
+    @ObjectHolder("compressium:emerald_8")
+    public static Emerald_8 EMERALD_8;
+
+    @ObjectHolder("compressium:emerald_9")
+    public static Emerald_9 EMERALD_9;
 
 }
