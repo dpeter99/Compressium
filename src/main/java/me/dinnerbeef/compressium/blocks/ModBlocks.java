@@ -1,5 +1,6 @@
 package me.dinnerbeef.compressium.blocks;
 
+import me.dinnerbeef.compressium.blocks.Clay.*;
 import me.dinnerbeef.compressium.blocks.Cobble.*;
 import me.dinnerbeef.compressium.blocks.Diamond.*;
 import me.dinnerbeef.compressium.blocks.Emerald.*;
@@ -12,6 +13,34 @@ import me.dinnerbeef.compressium.blocks.Stone.*;
 import net.minecraftforge.registries.ObjectHolder;
 
 public class ModBlocks {
+
+// Clay
+    @ObjectHolder("compressium:clay_1")
+    public static Clay_1 CLAY_1;
+
+    @ObjectHolder("compressium:clay_2")
+    public static Clay_2 CLAY_2;
+
+    @ObjectHolder("compressium:clay_3")
+    public static Clay_3 CLAY_3;
+
+    @ObjectHolder("compressium:clay_4")
+    public static Clay_4 CLAY_4;
+
+    @ObjectHolder("compressium:clay_5")
+    public static Clay_5 CLAY_5;
+
+    @ObjectHolder("compressium:clay_6")
+    public static Clay_6 CLAY_6;
+
+    @ObjectHolder("compressium:clay_7")
+    public static Clay_7 CLAY_7;
+
+    @ObjectHolder("compressium:clay_8")
+    public static Clay_8 CLAY_8;
+
+    @ObjectHolder("compressium:clay_9")
+    public static Clay_9 CLAY_9;
 
 // Cobble
     @ObjectHolder("compressium:cobble_1")

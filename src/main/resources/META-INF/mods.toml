@@ -24,9 +24,9 @@ displayURL="http://dinnerbeef.me" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="compressium.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks for all the people that helped me make this mod" #optional
+credits="Thanks to LatvianModder and Naxanria for helping me make this mod" #optional
 # A text field displayed in the mod UI
-authors="Clay Is Balnaced" #optional
+authors="DinnerBeef" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
 ALL HAIL THE GOD OF MODDING CPW

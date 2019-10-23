@@ -1,5 +1,7 @@
 package me.dinnerbeef.compressium;
 
+
+import me.dinnerbeef.compressium.blocks.Clay.*;
 import me.dinnerbeef.compressium.blocks.Cobble.*;
 import me.dinnerbeef.compressium.blocks.Diamond.*;
 import me.dinnerbeef.compressium.blocks.Emerald.*;
@@ -58,6 +60,18 @@ public class Compressium {
     public static class RegistryEvents {
         @SubscribeEvent
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> event) {
+
+
+            event.getRegistry().register(new Clay_1());
+            event.getRegistry().register(new Clay_2());
+            event.getRegistry().register(new Clay_3());
+            event.getRegistry().register(new Clay_4());
+            event.getRegistry().register(new Clay_5());
+            event.getRegistry().register(new Clay_6());
+            event.getRegistry().register(new Clay_7());
+            event.getRegistry().register(new Clay_8());
+            event.getRegistry().register(new Clay_9());
+
             event.getRegistry().register(new Cobble_1());
             event.getRegistry().register(new Cobble_2());
             event.getRegistry().register(new Cobble_3());
@@ -148,6 +162,18 @@ public class Compressium {
 
     @SubscribeEvent
     public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
+
+        event.getRegistry().register(new BlockItem(ModBlocks.CLAY_1, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("clay_1"));
+        event.getRegistry().register(new BlockItem(ModBlocks.CLAY_2, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("clay_2"));
+        event.getRegistry().register(new BlockItem(ModBlocks.CLAY_3, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("clay_3"));
+        event.getRegistry().register(new BlockItem(ModBlocks.CLAY_4, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("clay_4"));
+        event.getRegistry().register(new BlockItem(ModBlocks.CLAY_5, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("clay_5"));
+        event.getRegistry().register(new BlockItem(ModBlocks.CLAY_6, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("clay_6"));
+        event.getRegistry().register(new BlockItem(ModBlocks.CLAY_7, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("clay_7"));
+        event.getRegistry().register(new BlockItem(ModBlocks.CLAY_8, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("clay_8"));
+        event.getRegistry().register(new BlockItem(ModBlocks.CLAY_9, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("clay_9"));
+
+
         event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_1, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobble_1"));
         event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_2, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobble_2"));
         event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_3, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobble_3"));
@@ -231,4 +257,5 @@ public class Compressium {
 
     }
     }
+
 }

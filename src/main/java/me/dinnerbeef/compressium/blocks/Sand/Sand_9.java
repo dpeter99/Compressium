@@ -7,6 +7,7 @@ import net.minecraft.block.FallingBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.item.FallingBlockEntity;
+import net.minecraft.util.BlockRenderLayer;
 
 public class Sand_9 extends FallingBlock {
 
@@ -17,8 +18,12 @@ public class Sand_9 extends FallingBlock {
         );
         setRegistryName("sand_9");
     }
-
     protected void onStartFalling(FallingBlockEntity fallingEntity) {
         fallingEntity.setHurtEntities(true);
+    }
+    @Override
+    public BlockRenderLayer getRenderLayer()
+    {
+        return BlockRenderLayer.CUTOUT;
     }
 }

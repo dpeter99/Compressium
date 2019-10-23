@@ -9,6 +9,7 @@ import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
+import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.BlockRayTraceResult;
@@ -18,12 +19,14 @@ import net.minecraft.world.World;
 public class Cobble_1 extends Block {
 
     public Cobble_1() {
-
-
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.STONE).hardnessAndResistance(2.0f));
         setRegistryName("cobble_1");
-
+    }
+    @Override
+    public BlockRenderLayer getRenderLayer()
+    {
+        return BlockRenderLayer.CUTOUT;
     }
 
     @Override
@@ -45,9 +48,6 @@ public class Cobble_1 extends Block {
         }
         return false;
     }
-
-
-
 }
 
 
