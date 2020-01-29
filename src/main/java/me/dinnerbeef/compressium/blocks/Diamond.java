@@ -11,12 +11,12 @@ import net.minecraft.world.IWorldReader;
 
 public class Diamond extends Block {
 
-    public Diamond() {
+    public Diamond(Integer number) {
         super(Properties.create(Material.IRON)
                 .sound(SoundType.METAL)
                 .hardnessAndResistance(2.0f)
         );
-        setRegistryName("diamond");
+        setRegistryName("diamond_" + number);
         RenderType.cutout();
     }
 }

@@ -11,12 +11,12 @@ import net.minecraft.world.IWorldReader;
 
 public class Emerald extends Block {
 
-    public Emerald() {
+    public Emerald(Integer number) {
         super(Properties.create(Material.IRON)
                 .sound(SoundType.METAL)
                 .hardnessAndResistance(2.0f)
         );
-        setRegistryName("emerald");
+        setRegistryName("emerald_" + number);
         RenderType.cutout();
     }
     @Override

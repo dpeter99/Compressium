@@ -7,11 +7,11 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.entity.item.FallingBlockEntity;
 
 public class Gravel extends FallingBlock {
-    public Gravel() {
+    public Gravel(Integer number) {
         super(Properties.create(Material.SAND)
                 .sound(SoundType.GROUND)
                 .hardnessAndResistance(2.0f));
-        setRegistryName("gravel");
+        setRegistryName("gravel_" + number);
         RenderType.cutout();
     }
     protected void onStartFalling(FallingBlockEntity fallingEntity) {

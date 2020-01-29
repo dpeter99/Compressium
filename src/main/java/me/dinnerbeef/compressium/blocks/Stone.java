@@ -7,10 +7,10 @@ import net.minecraft.client.renderer.RenderType;
 
 public class Stone extends Block {
 
-    public Stone() {
+    public Stone(Integer number) {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.STONE).hardnessAndResistance(2.0f));
-        setRegistryName("stone");
+        setRegistryName("stone_" + number);
         RenderType.cutout();
     }
 }

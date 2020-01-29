@@ -9,10 +9,10 @@ import net.minecraft.client.renderer.RenderType;
 public class Clay extends Block {
 
 
-    public Clay() {
+    public Clay(Integer number) {
         super(Properties.create(Material.CLAY)
                 .sound(SoundType.GROUND).hardnessAndResistance(2.0f));
-        setRegistryName("clay");
+        setRegistryName("clay_" + number);
         RenderType.cutout();
     }
 }

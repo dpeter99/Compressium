@@ -8,10 +8,10 @@ import net.minecraft.client.renderer.RenderType;
 
 public class Cobblestone extends Block {
 
-    public Cobblestone() {
+    public Cobblestone(Integer number) {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.STONE).hardnessAndResistance(2.0f));
-        setRegistryName("cobble");
+        setRegistryName("cobble_" + number);
         RenderType.cutout();
     }
 }

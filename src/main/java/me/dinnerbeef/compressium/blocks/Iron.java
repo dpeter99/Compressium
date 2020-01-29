@@ -11,12 +11,12 @@ import net.minecraft.world.IWorldReader;
 
 public class Iron extends Block {
 
-    public Iron() {
+    public Iron(Integer number) {
         super(Properties.create(Material.IRON)
                 .sound(SoundType.METAL)
                 .hardnessAndResistance(2.0f)
         );
-        setRegistryName("iron");
+        setRegistryName("iron_" + number);
         RenderType.cutout();
     }
     @Override

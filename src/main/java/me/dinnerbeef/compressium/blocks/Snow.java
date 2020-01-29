@@ -7,10 +7,10 @@ import net.minecraft.client.renderer.RenderType;
 
 
 public class Snow extends Block {
-    public Snow() {
+    public Snow(Integer number) {
         super(Properties.create(Material.SNOW_BLOCK)
                 .sound(SoundType.SNOW).hardnessAndResistance(2.0f));
-        setRegistryName("snow");
+        setRegistryName("snow_" + number);
         RenderType.cutout();
     }
 }

@@ -11,10 +11,10 @@ import net.minecraft.world.IBlockReader;
 
 
 public class Netherrack extends Block {
-    public Netherrack() {
+    public Netherrack(Integer number) {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.STONE).hardnessAndResistance(2.0f));
-        setRegistryName("netherrack");
+        setRegistryName("netherrack_"+ number);
         RenderType.cutout();
     }
     @Override

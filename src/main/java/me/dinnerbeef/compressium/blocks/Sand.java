@@ -7,11 +7,11 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.entity.item.FallingBlockEntity;
 
 public class Sand extends FallingBlock {
-    public Sand() {
+    public Sand(Integer number) {
         super(Properties.create(Material.SAND)
                 .sound(SoundType.SAND)
                 .hardnessAndResistance(2.0f));
-                setRegistryName("sand");
+                setRegistryName("sand_" + number);
                 RenderType.cutout();
     }
     protected void onStartFalling(FallingBlockEntity fallingEntity) {

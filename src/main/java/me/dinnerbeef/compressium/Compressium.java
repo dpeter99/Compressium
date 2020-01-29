@@ -1,12 +1,13 @@
 package me.dinnerbeef.compressium;
 
 
-import me.dinnerbeef.compressium.blocks.ModBlocks;
+import me.dinnerbeef.compressium.blocks.*;
 import me.dinnerbeef.compressium.setup.ClientProxy;
 import me.dinnerbeef.compressium.setup.IProxy;
 import me.dinnerbeef.compressium.setup.ServerProxy;
 import net.minecraft.block.Block;
 
+import net.minecraft.client.Minecraft;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -56,134 +57,20 @@ public class Compressium {
     public static class RegistryEvents {
         @SubscribeEvent
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> event) {
-
-
-            event.getRegistry().register(new Soul_1());
-            event.getRegistry().register(new Soul_2());
-            event.getRegistry().register(new Soul_3());
-            event.getRegistry().register(new Soul_4());
-            event.getRegistry().register(new Soul_5());
-            event.getRegistry().register(new Soul_6());
-            event.getRegistry().register(new Soul_7());
-            event.getRegistry().register(new Soul_8());
-            event.getRegistry().register(new Soul_9());
-
-            event.getRegistry().register(new Snow_1());
-            event.getRegistry().register(new Snow_2());
-            event.getRegistry().register(new Snow_3());
-            event.getRegistry().register(new Snow_4());
-            event.getRegistry().register(new Snow_5());
-            event.getRegistry().register(new Snow_6());
-            event.getRegistry().register(new Snow_7());
-            event.getRegistry().register(new Snow_8());
-            event.getRegistry().register(new Snow_9());
-
-
-            event.getRegistry().register(new NetherRack_1());
-            event.getRegistry().register(new NetherRack_2());
-            event.getRegistry().register(new NetherRack_3());
-            event.getRegistry().register(new NetherRack_4());
-            event.getRegistry().register(new NetherRack_5());
-            event.getRegistry().register(new NetherRack_6());
-            event.getRegistry().register(new NetherRack_7());
-            event.getRegistry().register(new NetherRack_8());
-            event.getRegistry().register(new NetherRack_9());
-
-            event.getRegistry().register(new Clay_1());
-            event.getRegistry().register(new Clay_2());
-            event.getRegistry().register(new Clay_3());
-            event.getRegistry().register(new Clay_4());
-            event.getRegistry().register(new Clay_5());
-            event.getRegistry().register(new Clay_6());
-            event.getRegistry().register(new Clay_7());
-            event.getRegistry().register(new Clay_8());
-            event.getRegistry().register(new Clay_9());
-
-            event.getRegistry().register(new Cobble_1());
-            event.getRegistry().register(new Cobble_2());
-            event.getRegistry().register(new Cobble_3());
-            event.getRegistry().register(new Cobble_4());
-            event.getRegistry().register(new Cobble_5());
-            event.getRegistry().register(new Cobble_6());
-            event.getRegistry().register(new Cobble_7());
-            event.getRegistry().register(new Cobble_8());
-            event.getRegistry().register(new Cobble_9());
-
-            event.getRegistry().register(new Sand_1());
-            event.getRegistry().register(new Sand_2());
-            event.getRegistry().register(new Sand_3());
-            event.getRegistry().register(new Sand_4());
-            event.getRegistry().register(new Sand_5());
-            event.getRegistry().register(new Sand_6());
-            event.getRegistry().register(new Sand_7());
-            event.getRegistry().register(new Sand_8());
-            event.getRegistry().register(new Sand_9());
-
-            event.getRegistry().register(new Gravel_1());
-            event.getRegistry().register(new Gravel_2());
-            event.getRegistry().register(new Gravel_3());
-            event.getRegistry().register(new Gravel_4());
-            event.getRegistry().register(new Gravel_5());
-            event.getRegistry().register(new Gravel_6());
-            event.getRegistry().register(new Gravel_7());
-            event.getRegistry().register(new Gravel_8());
-            event.getRegistry().register(new Gravel_9());
-
-            event.getRegistry().register(new Stone_1());
-            event.getRegistry().register(new Stone_2());
-            event.getRegistry().register(new Stone_3());
-            event.getRegistry().register(new Stone_4());
-            event.getRegistry().register(new Stone_5());
-            event.getRegistry().register(new Stone_6());
-            event.getRegistry().register(new Stone_7());
-            event.getRegistry().register(new Stone_8());
-            event.getRegistry().register(new Stone_9());
-
-            event.getRegistry().register(new Iron_1());
-            event.getRegistry().register(new Iron_2());
-            event.getRegistry().register(new Iron_3());
-            event.getRegistry().register(new Iron_4());
-            event.getRegistry().register(new Iron_5());
-            event.getRegistry().register(new Iron_6());
-            event.getRegistry().register(new Iron_7());
-            event.getRegistry().register(new Iron_8());
-            event.getRegistry().register(new Iron_9());
-
-            event.getRegistry().register(new Gold_1());
-            event.getRegistry().register(new Gold_2());
-            event.getRegistry().register(new Gold_3());
-            event.getRegistry().register(new Gold_4());
-            event.getRegistry().register(new Gold_5());
-            event.getRegistry().register(new Gold_6());
-            event.getRegistry().register(new Gold_7());
-            event.getRegistry().register(new Gold_8());
-            event.getRegistry().register(new Gold_9());
-
-            event.getRegistry().register(new Diamond_1());
-            event.getRegistry().register(new Diamond_2());
-            event.getRegistry().register(new Diamond_3());
-            event.getRegistry().register(new Diamond_4());
-            event.getRegistry().register(new Diamond_5());
-            event.getRegistry().register(new Diamond_6());
-            event.getRegistry().register(new Diamond_7());
-            event.getRegistry().register(new Diamond_8());
-            event.getRegistry().register(new Diamond_9());
-
-            event.getRegistry().register(new Emerald_1());
-            event.getRegistry().register(new Emerald_2());
-            event.getRegistry().register(new Emerald_3());
-            event.getRegistry().register(new Emerald_4());
-            event.getRegistry().register(new Emerald_5());
-            event.getRegistry().register(new Emerald_6());
-            event.getRegistry().register(new Emerald_7());
-            event.getRegistry().register(new Emerald_8());
-            event.getRegistry().register(new Emerald_9());
-
-
-
-
-
-
+            for(int x = 1; x < 10; x++) {
+                event.getRegistry().register(new Soulsand(x));
+                event.getRegistry().register(new Snow(x));
+                event.getRegistry().register(new Netherrack(x));
+                event.getRegistry().register(new Clay(x));
+                event.getRegistry().register(new Cobblestone(x));
+                event.getRegistry().register(new Sand(x));
+                event.getRegistry().register(new Gravel(x));
+                event.getRegistry().register(new Stone(x));
+                event.getRegistry().register(new Iron(x));
+                event.getRegistry().register(new Gold(x));
+                event.getRegistry().register(new Diamond(x));
+                event.getRegistry().register(new Emerald(x));
+            }
         }
 
 
@@ -199,7 +86,6 @@ public class Compressium {
         event.getRegistry().register(new BlockItem(ModBlocks.SOUL_7, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_7"));
         event.getRegistry().register(new BlockItem(ModBlocks.SOUL_8, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_8"));
         event.getRegistry().register(new BlockItem(ModBlocks.SOUL_9, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_9"));
-
 
         event.getRegistry().register(new BlockItem(ModBlocks.SNOW_1, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("snow_1"));
         event.getRegistry().register(new BlockItem(ModBlocks.SNOW_2, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("snow_2"));
@@ -241,7 +127,6 @@ public class Compressium {
         event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_7, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobble_7"));
         event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_8, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobble_8"));
         event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_9, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobble_9"));
-
 
         event.getRegistry().register(new BlockItem(ModBlocks.SAND_1, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("sand_1"));
         event.getRegistry().register(new BlockItem(ModBlocks.SAND_2, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("sand_2"));
@@ -313,7 +198,7 @@ public class Compressium {
         event.getRegistry().register(new BlockItem(ModBlocks.EMERALD_8, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("emerald_8"));
         event.getRegistry().register(new BlockItem(ModBlocks.EMERALD_9, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("emerald_9"));
 
-    }
+        }
     }
 
 }

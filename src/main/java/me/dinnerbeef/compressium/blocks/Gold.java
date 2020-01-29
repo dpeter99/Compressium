@@ -11,12 +11,12 @@ import net.minecraft.world.IWorldReader;
 
 public class Gold extends Block {
 
-    public Gold() {
+    public Gold(Integer number) {
         super(Properties.create(Material.IRON)
                 .sound(SoundType.METAL)
                 .hardnessAndResistance(2.0f)
         );
-        setRegistryName("gold");
+        setRegistryName("gold_" + number);
         RenderType.cutout();
     }
     @Override
