@@ -1,6 +1,37 @@
 {
   "itemGroup.compressium.compressium": "Compressium",
 
+
+  "block.compressium.soul_1": "Compressed Soul Sand (1x)",
+  "block.compressium.soul_2": "Compressed Soul Sand (2x)",
+  "block.compressium.soul_3": "Compressed Soul Sand (3x)",
+  "block.compressium.soul_4": "Compressed Soul Sand (4x)",
+  "block.compressium.soul_5": "Compressed Soul Sand (5x)",
+  "block.compressium.soul_6": "Compressed Soul Sand (6x)",
+  "block.compressium.soul_7": "Compressed Soul Sand (7x)",
+  "block.compressium.soul_8": "Compressed Soul Sand (8x)",
+  "block.compressium.soul_9": "Compressed Soul Sand (9x)",
+
+  "block.compressium.netherrack_1": "Compressed Netherrack (1x)",
+  "block.compressium.netherrack_2": "Compressed Netherrack (2x)",
+  "block.compressium.netherrack_3": "Compressed Netherrack (3x)",
+  "block.compressium.netherrack_4": "Compressed Netherrack (4x)",
+  "block.compressium.netherrack_5": "Compressed Netherrack (5x)",
+  "block.compressium.netherrack_6": "Compressed Netherrack (6x)",
+  "block.compressium.netherrack_7": "Compressed Netherrack (7x)",
+  "block.compressium.netherrack_8": "Compressed Netherrack (8x)",
+  "block.compressium.netherrack_9": "Compressed Netherrack (9x)",
+
+  "block.compressium.snow_1": "Compressed Snow Block (1x)",
+  "block.compressium.snow_2": "Compressed Snow Block (2x)",
+  "block.compressium.snow_3": "Compressed Snow Block (3x)",
+  "block.compressium.snow_4": "Compressed Snow Block (4x)",
+  "block.compressium.snow_5": "Compressed Snow Block (5x)",
+  "block.compressium.snow_6": "Compressed Snow Block (6x)",
+  "block.compressium.snow_7": "Compressed Snow Block (7x)",
+  "block.compressium.snow_8": "Compressed Snow Block (8x)",
+  "block.compressium.snow_9": "Compressed Snow Block (9x)",
+
   "block.compressium.clay_1": "Compressed Clay (1x)",
   "block.compressium.clay_2": "Compressed Clay (2x)",
   "block.compressium.clay_3": "Compressed Clay (3x)",

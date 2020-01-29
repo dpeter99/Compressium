@@ -1,21 +1,12 @@
 package me.dinnerbeef.compressium;
 
 
-import me.dinnerbeef.compressium.blocks.Clay.*;
-import me.dinnerbeef.compressium.blocks.Cobble.*;
-import me.dinnerbeef.compressium.blocks.Diamond.*;
-import me.dinnerbeef.compressium.blocks.Emerald.*;
-import me.dinnerbeef.compressium.blocks.Gold.*;
-import me.dinnerbeef.compressium.blocks.Iron.*;
-import me.dinnerbeef.compressium.blocks.Gravel.*;
-
 import me.dinnerbeef.compressium.blocks.ModBlocks;
-import me.dinnerbeef.compressium.blocks.Sand.*;
-import me.dinnerbeef.compressium.blocks.Stone.*;
 import me.dinnerbeef.compressium.setup.ClientProxy;
 import me.dinnerbeef.compressium.setup.IProxy;
 import me.dinnerbeef.compressium.setup.ServerProxy;
 import net.minecraft.block.Block;
+
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -41,11 +32,14 @@ public class Compressium {
     public Compressium() {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+
+
     }
 
     private void setup(final FMLCommonSetupEvent event) {
 
     }
+
 
     public static final ItemGroup creativeTab = new ItemGroup(MOD_ID + ".compressium") {
         @Override
@@ -56,11 +50,44 @@ public class Compressium {
 
     // You can use EventBusSubscriber to automatically subscribe events on the contained class (this is subscribing to the MOD
     // Event bus for receiving Registry Events)
+
+
     @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
     public static class RegistryEvents {
         @SubscribeEvent
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> event) {
 
+
+            event.getRegistry().register(new Soul_1());
+            event.getRegistry().register(new Soul_2());
+            event.getRegistry().register(new Soul_3());
+            event.getRegistry().register(new Soul_4());
+            event.getRegistry().register(new Soul_5());
+            event.getRegistry().register(new Soul_6());
+            event.getRegistry().register(new Soul_7());
+            event.getRegistry().register(new Soul_8());
+            event.getRegistry().register(new Soul_9());
+
+            event.getRegistry().register(new Snow_1());
+            event.getRegistry().register(new Snow_2());
+            event.getRegistry().register(new Snow_3());
+            event.getRegistry().register(new Snow_4());
+            event.getRegistry().register(new Snow_5());
+            event.getRegistry().register(new Snow_6());
+            event.getRegistry().register(new Snow_7());
+            event.getRegistry().register(new Snow_8());
+            event.getRegistry().register(new Snow_9());
+
+
+            event.getRegistry().register(new NetherRack_1());
+            event.getRegistry().register(new NetherRack_2());
+            event.getRegistry().register(new NetherRack_3());
+            event.getRegistry().register(new NetherRack_4());
+            event.getRegistry().register(new NetherRack_5());
+            event.getRegistry().register(new NetherRack_6());
+            event.getRegistry().register(new NetherRack_7());
+            event.getRegistry().register(new NetherRack_8());
+            event.getRegistry().register(new NetherRack_9());
 
             event.getRegistry().register(new Clay_1());
             event.getRegistry().register(new Clay_2());
@@ -162,6 +189,37 @@ public class Compressium {
 
     @SubscribeEvent
     public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
+
+        event.getRegistry().register(new BlockItem(ModBlocks.SOUL_1, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_1"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SOUL_2, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_2"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SOUL_3, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_3"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SOUL_4, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_4"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SOUL_5, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_5"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SOUL_6, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_6"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SOUL_7, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_7"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SOUL_8, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_8"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SOUL_9, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_9"));
+
+
+        event.getRegistry().register(new BlockItem(ModBlocks.SNOW_1, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("snow_1"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SNOW_2, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("snow_2"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SNOW_3, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("snow_3"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SNOW_4, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("snow_4"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SNOW_5, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("snow_5"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SNOW_6, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("snow_6"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SNOW_7, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("snow_7"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SNOW_8, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("snow_8"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SNOW_9, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("snow_9"));
+
+        event.getRegistry().register(new BlockItem(ModBlocks.NETHERRACK_1, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("netherrack_1"));
+        event.getRegistry().register(new BlockItem(ModBlocks.NETHERRACK_2, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("netherrack_2"));
+        event.getRegistry().register(new BlockItem(ModBlocks.NETHERRACK_3, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("netherrack_3"));
+        event.getRegistry().register(new BlockItem(ModBlocks.NETHERRACK_4, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("netherrack_4"));
+        event.getRegistry().register(new BlockItem(ModBlocks.NETHERRACK_5, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("netherrack_5"));
+        event.getRegistry().register(new BlockItem(ModBlocks.NETHERRACK_6, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("netherrack_6"));
+        event.getRegistry().register(new BlockItem(ModBlocks.NETHERRACK_7, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("netherrack_7"));
+        event.getRegistry().register(new BlockItem(ModBlocks.NETHERRACK_8, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("netherrack_8"));
+        event.getRegistry().register(new BlockItem(ModBlocks.NETHERRACK_9, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("netherrack_9"));
 
         event.getRegistry().register(new BlockItem(ModBlocks.CLAY_1, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("clay_1"));
         event.getRegistry().register(new BlockItem(ModBlocks.CLAY_2, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("clay_2"));
