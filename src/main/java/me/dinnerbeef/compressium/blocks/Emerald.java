@@ -17,7 +17,6 @@ public class Emerald extends Block {
                 .hardnessAndResistance(2.0f)
         );
         setRegistryName("emerald_" + number);
-        RenderType.cutout();
     }
     @Override
     public boolean isBeaconBase(BlockState state, IWorldReader world, BlockPos pos, BlockPos beacon) {

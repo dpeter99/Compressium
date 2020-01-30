@@ -17,7 +17,6 @@ public class Gold extends Block {
                 .hardnessAndResistance(2.0f)
         );
         setRegistryName("gold_" + number);
-        RenderType.cutout();
     }
     @Override
     public boolean isBeaconBase(BlockState state, IWorldReader world, BlockPos pos, BlockPos beacon) {

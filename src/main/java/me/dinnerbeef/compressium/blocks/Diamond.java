@@ -17,7 +17,6 @@ public class Diamond extends Block {
                 .hardnessAndResistance(2.0f)
         );
         setRegistryName("diamond_" + number);
-        RenderType.cutout();
     }
 }
 

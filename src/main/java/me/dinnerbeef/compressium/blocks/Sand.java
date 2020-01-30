@@ -12,7 +12,6 @@ public class Sand extends FallingBlock {
                 .sound(SoundType.SAND)
                 .hardnessAndResistance(2.0f));
                 setRegistryName("sand_" + number);
-                RenderType.cutout();
     }
     protected void onStartFalling(FallingBlockEntity fallingEntity) {
         fallingEntity.setHurtEntities(true);

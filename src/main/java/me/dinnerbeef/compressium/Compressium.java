@@ -8,6 +8,8 @@ import me.dinnerbeef.compressium.setup.ServerProxy;
 import net.minecraft.block.Block;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -16,6 +18,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
@@ -33,8 +36,22 @@ public class Compressium {
     public Compressium() {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientsetup);
 
 
+    }
+
+    private void clientsetup(final FMLClientSetupEvent event) {
+        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLE_1, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLE_2, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLE_3, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLE_4, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLE_5, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLE_6, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLE_7, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLE_8, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLE_9, RenderType.cutout());
+        //TODO: Dinnerbeef Add the rest
     }
 
     private void setup(final FMLCommonSetupEvent event) {

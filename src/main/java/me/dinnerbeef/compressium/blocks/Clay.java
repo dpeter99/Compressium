@@ -13,6 +13,5 @@ public class Clay extends Block {
         super(Properties.create(Material.CLAY)
                 .sound(SoundType.GROUND).hardnessAndResistance(2.0f));
         setRegistryName("clay_" + number);
-        RenderType.cutout();
     }
 }
