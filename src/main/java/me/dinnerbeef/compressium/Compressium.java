@@ -42,16 +42,125 @@ public class Compressium {
     }
 
     private void clientsetup(final FMLClientSetupEvent event) {
-        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLE_1, RenderType.cutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLE_2, RenderType.cutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLE_3, RenderType.cutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLE_4, RenderType.cutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLE_5, RenderType.cutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLE_6, RenderType.cutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLE_7, RenderType.cutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLE_8, RenderType.cutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLE_9, RenderType.cutout());
-        //TODO: Dinnerbeef Add the rest
+        RenderTypeLookup.setRenderLayer(ModBlocks.SOULSAND_1, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SOULSAND_2, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SOULSAND_3, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SOULSAND_4, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SOULSAND_5, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SOULSAND_6, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SOULSAND_7, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SOULSAND_8, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SOULSAND_9, RenderType.cutout());
+
+        RenderTypeLookup.setRenderLayer(ModBlocks.SNOW_1, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SNOW_2, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SNOW_3, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SNOW_4, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SNOW_5, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SNOW_6, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SNOW_7, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SNOW_8, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SNOW_9, RenderType.cutout());
+
+        RenderTypeLookup.setRenderLayer(ModBlocks.NETHERRACK_1, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.NETHERRACK_2, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.NETHERRACK_3, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.NETHERRACK_4, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.NETHERRACK_5, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.NETHERRACK_6, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.NETHERRACK_7, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.NETHERRACK_8, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.NETHERRACK_9, RenderType.cutout());
+
+        RenderTypeLookup.setRenderLayer(ModBlocks.CLAY_1, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CLAY_2, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CLAY_3, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CLAY_4, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CLAY_5, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CLAY_6, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CLAY_7, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CLAY_8, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CLAY_9, RenderType.cutout());
+
+        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLESTONE_1, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLESTONE_2, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLESTONE_3, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLESTONE_4, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLESTONE_5, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLESTONE_6, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLESTONE_7, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLESTONE_8, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.COBBLESTONE_9, RenderType.cutout());
+
+        RenderTypeLookup.setRenderLayer(ModBlocks.SAND_1, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SAND_2, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SAND_3, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SAND_4, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SAND_5, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SAND_6, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SAND_7, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SAND_8, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SAND_9, RenderType.cutout());
+
+        RenderTypeLookup.setRenderLayer(ModBlocks.GRAVEL_1, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.GRAVEL_2, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.GRAVEL_3, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.GRAVEL_4, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.GRAVEL_5, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.GRAVEL_6, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.GRAVEL_7, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.GRAVEL_8, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.GRAVEL_9, RenderType.cutout());
+
+        RenderTypeLookup.setRenderLayer(ModBlocks.STONE_1, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.STONE_2, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.STONE_3, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.STONE_4, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.STONE_5, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.STONE_6, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.STONE_7, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.STONE_8, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.STONE_9, RenderType.cutout());
+
+        RenderTypeLookup.setRenderLayer(ModBlocks.IRON_1, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.IRON_2, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.IRON_3, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.IRON_4, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.IRON_5, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.IRON_6, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.IRON_7, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.IRON_8, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.IRON_9, RenderType.cutout());
+
+        RenderTypeLookup.setRenderLayer(ModBlocks.GOLD_1, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.GOLD_2, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.GOLD_3, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.GOLD_4, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.GOLD_5, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.GOLD_6, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.GOLD_7, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.GOLD_8, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.GOLD_9, RenderType.cutout());
+
+        RenderTypeLookup.setRenderLayer(ModBlocks.DIAMOND_1, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.DIAMOND_2, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.DIAMOND_3, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.DIAMOND_4, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.DIAMOND_5, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.DIAMOND_6, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.DIAMOND_7, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.DIAMOND_8, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.DIAMOND_9, RenderType.cutout());
+
+        RenderTypeLookup.setRenderLayer(ModBlocks.EMERALD_1, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.EMERALD_2, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.EMERALD_3, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.EMERALD_4, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.EMERALD_5, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.EMERALD_6, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.EMERALD_7, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.EMERALD_8, RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.EMERALD_9, RenderType.cutout());
     }
 
     private void setup(final FMLCommonSetupEvent event) {
