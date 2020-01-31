@@ -14,6 +14,4 @@ public class Soulsand extends SoulSandBlock {
         setRegistryName("soul_" + number);
     }
 
-
-
 }

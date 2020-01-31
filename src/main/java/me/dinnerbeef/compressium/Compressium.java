@@ -6,8 +6,6 @@ import me.dinnerbeef.compressium.setup.ClientProxy;
 import me.dinnerbeef.compressium.setup.IProxy;
 import me.dinnerbeef.compressium.setup.ServerProxy;
 import net.minecraft.block.Block;
-
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.item.BlockItem;
@@ -165,13 +163,14 @@ public class Compressium {
 
     private void setup(final FMLCommonSetupEvent event) {
 
+      
     }
 
 
     public static final ItemGroup creativeTab = new ItemGroup(MOD_ID + ".compressium") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModBlocks.COBBLE_1);
+            return new ItemStack(ModBlocks.COBBLESTONE_1);
         }
     };
 
@@ -203,15 +202,15 @@ public class Compressium {
     @SubscribeEvent
     public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
 
-        event.getRegistry().register(new BlockItem(ModBlocks.SOUL_1, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_1"));
-        event.getRegistry().register(new BlockItem(ModBlocks.SOUL_2, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_2"));
-        event.getRegistry().register(new BlockItem(ModBlocks.SOUL_3, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_3"));
-        event.getRegistry().register(new BlockItem(ModBlocks.SOUL_4, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_4"));
-        event.getRegistry().register(new BlockItem(ModBlocks.SOUL_5, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_5"));
-        event.getRegistry().register(new BlockItem(ModBlocks.SOUL_6, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_6"));
-        event.getRegistry().register(new BlockItem(ModBlocks.SOUL_7, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_7"));
-        event.getRegistry().register(new BlockItem(ModBlocks.SOUL_8, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_8"));
-        event.getRegistry().register(new BlockItem(ModBlocks.SOUL_9, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soul_9"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SOULSAND_1, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soulsand_1"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SOULSAND_2, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soulsand_2"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SOULSAND_3, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soulsand_3"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SOULSAND_4, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soulsand_4"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SOULSAND_5, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soulsand_5"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SOULSAND_6, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soulsand_6"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SOULSAND_7, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soulsand_7"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SOULSAND_8, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soulsand_8"));
+        event.getRegistry().register(new BlockItem(ModBlocks.SOULSAND_9, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("soulsand_9"));
 
         event.getRegistry().register(new BlockItem(ModBlocks.SNOW_1, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("snow_1"));
         event.getRegistry().register(new BlockItem(ModBlocks.SNOW_2, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("snow_2"));
@@ -244,15 +243,15 @@ public class Compressium {
         event.getRegistry().register(new BlockItem(ModBlocks.CLAY_9, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("clay_9"));
 
 
-        event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_1, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobble_1"));
-        event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_2, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobble_2"));
-        event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_3, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobble_3"));
-        event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_4, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobble_4"));
-        event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_5, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobble_5"));
-        event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_6, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobble_6"));
-        event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_7, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobble_7"));
-        event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_8, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobble_8"));
-        event.getRegistry().register(new BlockItem(ModBlocks.COBBLE_9, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobble_9"));
+        event.getRegistry().register(new BlockItem(ModBlocks.COBBLESTONE_1, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobblestone_1"));
+        event.getRegistry().register(new BlockItem(ModBlocks.COBBLESTONE_2, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobblestone_2"));
+        event.getRegistry().register(new BlockItem(ModBlocks.COBBLESTONE_3, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobblestone_3"));
+        event.getRegistry().register(new BlockItem(ModBlocks.COBBLESTONE_4, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobblestone_4"));
+        event.getRegistry().register(new BlockItem(ModBlocks.COBBLESTONE_5, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobblestone_5"));
+        event.getRegistry().register(new BlockItem(ModBlocks.COBBLESTONE_6, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobblestone_6"));
+        event.getRegistry().register(new BlockItem(ModBlocks.COBBLESTONE_7, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobblestone_7"));
+        event.getRegistry().register(new BlockItem(ModBlocks.COBBLESTONE_8, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobblestone_8"));
+        event.getRegistry().register(new BlockItem(ModBlocks.COBBLESTONE_9, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("cobblestone_9"));
 
         event.getRegistry().register(new BlockItem(ModBlocks.SAND_1, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("sand_1"));
         event.getRegistry().register(new BlockItem(ModBlocks.SAND_2, new Item.Properties().group(Compressium.creativeTab)).setRegistryName("sand_2"));

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "compressium:cobble_1"
+    "item": "compressium:cobblestone_1"
   },
   "result": "compressium:stone_1",
   "experience": 1,
