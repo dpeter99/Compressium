@@ -11,7 +11,7 @@ public class Soulsand extends SoulSandBlock {
     public Soulsand(Integer number) {
         super(Properties.create(Material.SAND)
                 .sound(SoundType.SAND).hardnessAndResistance(2.0f));
-        setRegistryName("soulsand_" + number);
+        setRegistryName("soul_" + number);
     }
 
 }

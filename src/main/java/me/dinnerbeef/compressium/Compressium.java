@@ -6,7 +6,6 @@ import me.dinnerbeef.compressium.setup.ClientProxy;
 import me.dinnerbeef.compressium.setup.IProxy;
 import me.dinnerbeef.compressium.setup.ServerProxy;
 import net.minecraft.block.Block;
-
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.item.BlockItem;
@@ -17,6 +16,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
@@ -34,12 +34,12 @@ public class Compressium {
     public Compressium() {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientsetup);
 
 
     }
 
-    private void setup(final FMLCommonSetupEvent event) {
-
+    private void clientsetup(final FMLClientSetupEvent event) {
         RenderTypeLookup.setRenderLayer(ModBlocks.SOULSAND_1, RenderType.cutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.SOULSAND_2, RenderType.cutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.SOULSAND_3, RenderType.cutout());
@@ -159,7 +159,11 @@ public class Compressium {
         RenderTypeLookup.setRenderLayer(ModBlocks.EMERALD_7, RenderType.cutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.EMERALD_8, RenderType.cutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.EMERALD_9, RenderType.cutout());
+    }
 
+    private void setup(final FMLCommonSetupEvent event) {
+
+      
     }
 
 
