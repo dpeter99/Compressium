@@ -11,6 +11,5 @@ public class Snow extends Block {
         super(Properties.create(Material.SNOW_BLOCK)
                 .sound(SoundType.SNOW).hardnessAndResistance(2.0f));
         setRegistryName("snow_" + number);
-        RenderType.cutout();
     }
 }

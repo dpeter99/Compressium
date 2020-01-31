@@ -4,6 +4,7 @@ import net.minecraft.block.FallingBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.entity.item.FallingBlockEntity;
 
 public class Sand extends FallingBlock {
@@ -12,9 +13,9 @@ public class Sand extends FallingBlock {
                 .sound(SoundType.SAND)
                 .hardnessAndResistance(2.0f));
                 setRegistryName("sand_" + number);
-                RenderType.cutout();
     }
     protected void onStartFalling(FallingBlockEntity fallingEntity) {
         fallingEntity.setHurtEntities(true);
     }
+    
 }

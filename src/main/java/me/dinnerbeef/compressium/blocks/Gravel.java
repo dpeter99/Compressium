@@ -12,7 +12,6 @@ public class Gravel extends FallingBlock {
                 .sound(SoundType.GROUND)
                 .hardnessAndResistance(2.0f));
         setRegistryName("gravel_" + number);
-        RenderType.cutout();
     }
     protected void onStartFalling(FallingBlockEntity fallingEntity) {
         fallingEntity.setHurtEntities(true);

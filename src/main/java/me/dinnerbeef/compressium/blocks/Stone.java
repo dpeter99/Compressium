@@ -11,7 +11,6 @@ public class Stone extends Block {
         super(Properties.create(Material.ROCK)
                 .sound(SoundType.STONE).hardnessAndResistance(2.0f));
         setRegistryName("stone_" + number);
-        RenderType.cutout();
     }
 }
 

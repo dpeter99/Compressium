@@ -7,32 +7,32 @@ import net.minecraftforge.registries.ObjectHolder;
 public class ModBlocks {
 
 
-    @ObjectHolder("compressium:soul_1")
-    public static Block SOUL_1;
+    @ObjectHolder("compressium:soulsand_1")
+    public static Block SOULSAND_1;
 
-    @ObjectHolder("compressium:soul_2")
-    public static Block SOUL_2;
+    @ObjectHolder("compressium:soulsand_2")
+    public static Block SOULSAND_2;
 
-    @ObjectHolder("compressium:soul_3")
-    public static Block SOUL_3;
+    @ObjectHolder("compressium:soulsand_3")
+    public static Block SOULSAND_3;
 
-    @ObjectHolder("compressium:soul_4")
-    public static Block SOUL_4;
+    @ObjectHolder("compressium:soulsand_4")
+    public static Block SOULSAND_4;
 
-    @ObjectHolder("compressium:soul_5")
-    public static Block SOUL_5;
+    @ObjectHolder("compressium:soulsand_5")
+    public static Block SOULSAND_5;
 
-    @ObjectHolder("compressium:soul_6")
-    public static Block SOUL_6;
+    @ObjectHolder("compressium:soulsand_6")
+    public static Block SOULSAND_6;
 
-    @ObjectHolder("compressium:soul_7")
-    public static Block SOUL_7;
+    @ObjectHolder("compressium:soulsand_7")
+    public static Block SOULSAND_7;
 
-    @ObjectHolder("compressium:soul_8")
-    public static Block SOUL_8;
+    @ObjectHolder("compressium:soulsand_8")
+    public static Block SOULSAND_8;
 
-    @ObjectHolder("compressium:soul_9")
-    public static Block SOUL_9;
+    @ObjectHolder("compressium:soulsand_9")
+    public static Block SOULSAND_9;
 
 
     @ObjectHolder("compressium:snow_1")
@@ -121,33 +121,33 @@ public class ModBlocks {
     @ObjectHolder("compressium:clay_9")
     public static Block CLAY_9;
 
-// Cobblestone
-    @ObjectHolder("compressium:cobble_1")
-    public static Block COBBLE_1;
+    // Cobblestone
+    @ObjectHolder("compressium:cobblestone_1")
+    public static Block COBBLESTONE_1;
 
-    @ObjectHolder("compressium:cobble_2")
-    public static Block COBBLE_2;
+    @ObjectHolder("compressium:cobblestone_2")
+    public static Block COBBLESTONE_2;
 
-    @ObjectHolder("compressium:cobble_3")
-    public static Block COBBLE_3;
+    @ObjectHolder("compressium:cobblestone_3")
+    public static Block COBBLESTONE_3;
 
-    @ObjectHolder("compressium:cobble_4")
-    public static Block COBBLE_4;
+    @ObjectHolder("compressium:cobblestone_4")
+    public static Block COBBLESTONE_4;
 
-    @ObjectHolder("compressium:cobble_5")
-    public static Block COBBLE_5;
+    @ObjectHolder("compressium:cobblestone_5")
+    public static Block COBBLESTONE_5;
 
-    @ObjectHolder("compressium:cobble_6")
-    public static Block COBBLE_6;
+    @ObjectHolder("compressium:cobblestone_6")
+    public static Block COBBLESTONE_6;
 
-    @ObjectHolder("compressium:cobble_7")
-    public static Block COBBLE_7;
+    @ObjectHolder("compressium:cobblestone_7")
+    public static Block COBBLESTONE_7;
 
-    @ObjectHolder("compressium:cobble_8")
-    public static Block COBBLE_8;
+    @ObjectHolder("compressium:cobblestone_8")
+    public static Block COBBLESTONE_8;
 
-    @ObjectHolder("compressium:cobble_9")
-    public static Block COBBLE_9;
+    @ObjectHolder("compressium:cobblestone_9")
+    public static Block COBBLESTONE_9;
 
 // Sand
 
@@ -353,5 +353,3 @@ public class ModBlocks {
     public static Block EMERALD_9;
 
 }
-
-
