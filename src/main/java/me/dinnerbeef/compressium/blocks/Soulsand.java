@@ -9,5 +9,6 @@ public class Soulsand extends SoulSandBlock
 	public Soulsand()
 	{
 		super(Properties.create(Material.SAND).sound(SoundType.SAND).hardnessAndResistance(2.0f));
+
 	}
 }
