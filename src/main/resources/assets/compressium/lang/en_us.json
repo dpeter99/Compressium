@@ -120,6 +120,25 @@
   "block.compressium.emerald_6": "Compressed Block Of Emerald (6x)",
   "block.compressium.emerald_7": "Compressed Block Of Emerald (7x)",
   "block.compressium.emerald_8": "Compressed Block Of Emerald (8x)",
-  "block.compressium.emerald_9": "Compressed Block Of Emerald (9x)"
+  "block.compressium.emerald_9": "Compressed Block Of Emerald (9x)",
 
+  "block.compressium.dirt_1": "Compressed Block Of Dirt (1x)",
+  "block.compressium.dirt_2": "Compressed Block Of Dirt (2x)",
+  "block.compressium.dirt_3": "Compressed Block Of Dirt (3x)",
+  "block.compressium.dirt_4": "Compressed Block Of Dirt (4x)",
+  "block.compressium.dirt_5": "Compressed Block Of Dirt (5x)",
+  "block.compressium.dirt_6": "Compressed Block Of Dirt (6x)",
+  "block.compressium.dirt_7": "Compressed Block Of Dirt (7x)",
+  "block.compressium.dirt_8": "Compressed Block Of Dirt (8x)",
+  "block.compressium.dirt_9": "Compressed Block Of Dirt (9x)",
+
+  "block.compressium.netherite_1": "Compressed Block Of Netherite (1x)",
+  "block.compressium.netherite_2": "Compressed Block Of Netherite (2x)",
+  "block.compressium.netherite_3": "Compressed Block Of Netherite (3x)",
+  "block.compressium.netherite_4": "Compressed Block Of Netherite (4x)",
+  "block.compressium.netherite_5": "Compressed Block Of Netherite (5x)",
+  "block.compressium.netherite_6": "Compressed Block Of Netherite (6x)",
+  "block.compressium.netherite_7": "Compressed Block Of Netherite (7x)",
+  "block.compressium.netherite_8": "Compressed Block Of Netherite (8x)",
+  "block.compressium.netherite_9": "Compressed Block Of Netherite (9x)"
 }

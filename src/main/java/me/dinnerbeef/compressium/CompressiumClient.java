@@ -22,7 +22,8 @@ public class CompressiumClient extends CompressiumCommon
 		{
 			for (Block block : type.blocks)
 			{
-				RenderTypeLookup.setRenderLayer(block, RenderType.cutout());
+				RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
+
 			}
 		}
 	}

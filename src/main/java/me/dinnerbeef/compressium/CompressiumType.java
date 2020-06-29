@@ -1,17 +1,6 @@
 package me.dinnerbeef.compressium;
 
-import me.dinnerbeef.compressium.blocks.Clay;
-import me.dinnerbeef.compressium.blocks.Cobblestone;
-import me.dinnerbeef.compressium.blocks.Diamond;
-import me.dinnerbeef.compressium.blocks.Emerald;
-import me.dinnerbeef.compressium.blocks.Gold;
-import me.dinnerbeef.compressium.blocks.Gravel;
-import me.dinnerbeef.compressium.blocks.Iron;
-import me.dinnerbeef.compressium.blocks.Netherrack;
-import me.dinnerbeef.compressium.blocks.Sand;
-import me.dinnerbeef.compressium.blocks.Snow;
-import me.dinnerbeef.compressium.blocks.Soulsand;
-import me.dinnerbeef.compressium.blocks.Stone;
+import me.dinnerbeef.compressium.blocks.*;
 import net.minecraft.block.Block;
 
 import java.util.ArrayList;
@@ -19,7 +8,7 @@ import java.util.List;
 import java.util.function.Supplier;
 
 /**
- * @author LatvianModder
+ * @author LatvianModder / DinnerBeef (Just Coped And Pasted Some Of This)
  */
 public enum CompressiumType
 {
@@ -34,7 +23,9 @@ public enum CompressiumType
 	GOLD("gold", Gold::new),
 	DIAMOND("diamond", Diamond::new),
 	EMERALD("emerald", Emerald::new),
-	CLAY("clay", Clay::new);
+	CLAY("clay", Clay::new),
+	NETHERITE("netherite", Netherite::new),
+	DIRT("dirt", Dirt::new);
 
 	public static final CompressiumType[] VALUES = values();
 
