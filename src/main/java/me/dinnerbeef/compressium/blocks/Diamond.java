@@ -11,7 +11,7 @@ public class Diamond extends Block
 {
 	public Diamond()
 	{
-		super(Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(2.0f));
+		super(Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5.0f,6.0f));
 	}
 
 	@Override

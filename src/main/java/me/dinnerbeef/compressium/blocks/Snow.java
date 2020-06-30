@@ -8,6 +8,6 @@ public class Snow extends Block
 {
 	public Snow()
 	{
-		super(Properties.create(Material.SNOW_BLOCK).sound(SoundType.SNOW).hardnessAndResistance(2.0f));
+		super(Properties.create(Material.SNOW_BLOCK).sound(SoundType.SNOW).hardnessAndResistance(0.2f));
 	}
 }

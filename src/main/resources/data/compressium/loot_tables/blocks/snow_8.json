@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "blockMaking": "compressium:snow_8"
+          "name": "compressium:snow_8"
         }
       ],
       "conditions": [

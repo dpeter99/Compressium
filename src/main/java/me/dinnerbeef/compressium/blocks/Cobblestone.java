@@ -8,6 +8,6 @@ public class Cobblestone extends Block
 {
 	public Cobblestone()
 	{
-		super(Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0f));
+		super(Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.0f, 6.0F));
 	}
 }
