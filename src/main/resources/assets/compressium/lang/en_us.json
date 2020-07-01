@@ -140,5 +140,15 @@
   "block.compressium.netherite_6": "Compressed Block Of Netherite (6x)",
   "block.compressium.netherite_7": "Compressed Block Of Netherite (7x)",
   "block.compressium.netherite_8": "Compressed Block Of Netherite (8x)",
-  "block.compressium.netherite_9": "Compressed Block Of Netherite (9x)"
+  "block.compressium.netherite_9": "Compressed Block Of Netherite (9x)",
+
+  "block.compressium.coal_1": "Compressed Block Of Coal (1x)",
+  "block.compressium.coal_2": "Compressed Block Of Coal (2x)",
+  "block.compressium.coal_3": "Compressed Block Of Coal (3x)",
+  "block.compressium.coal_4": "Compressed Block Of Coal (4x)",
+  "block.compressium.coal_5": "Compressed Block Of Coal (5x)",
+  "block.compressium.coal_6": "Compressed Block Of Coal (6x)",
+  "block.compressium.coal_7": "Compressed Block Of Coal (7x)",
+  "block.compressium.coal_8": "Compressed Block Of Coal (8x)",
+  "block.compressium.coal_9": "Compressed Block Of Coal (9x)"
 }

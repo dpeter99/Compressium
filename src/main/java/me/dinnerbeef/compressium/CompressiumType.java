@@ -25,7 +25,8 @@ public enum CompressiumType
 	EMERALD("emerald", Emerald::new),
 	CLAY("clay", Clay::new),
 	NETHERITE("netherite", Netherite::new),
-	DIRT("dirt", Dirt::new);
+	DIRT("dirt", Dirt::new),
+	COAL("coal", Coal::new);
 
 	public static final CompressiumType[] VALUES = values();
 
