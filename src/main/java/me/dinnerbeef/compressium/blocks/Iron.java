@@ -15,9 +15,4 @@ public class Iron extends Block
 		super(Properties.create(Material.IRON, MaterialColor.IRON).sound(SoundType.METAL).hardnessAndResistance(5.0f,6.0f));
 	}
 
-	@Override
-	public boolean isBeaconBase(BlockState state, IWorldReader world, BlockPos pos, BlockPos beacon)
-	{
-		return true;
-	}
 }

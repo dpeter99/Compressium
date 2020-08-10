@@ -15,9 +15,4 @@ public class Gold extends Block
 		super(Properties.create(Material.IRON, MaterialColor.GOLD).sound(SoundType.METAL).hardnessAndResistance(3.0f,6.0f));
 	}
 
-	@Override
-	public boolean isBeaconBase(BlockState state, IWorldReader world, BlockPos pos, BlockPos beacon)
-	{
-		return true;
-	}
 }
