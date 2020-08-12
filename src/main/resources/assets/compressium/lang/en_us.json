@@ -150,5 +150,35 @@
   "block.compressium.coal_6": "Compressed Block Of Coal (6x)",
   "block.compressium.coal_7": "Compressed Block Of Coal (7x)",
   "block.compressium.coal_8": "Compressed Block Of Coal (8x)",
-  "block.compressium.coal_9": "Compressed Block Of Coal (9x)"
+  "block.compressium.coal_9": "Compressed Block Of Coal (9x)",
+
+  "block.compressium.redsand_1": "Compressed Block Of Red Sand (1x)",
+  "block.compressium.redsand_2": "Compressed Block Of Red Sand (2x)",
+  "block.compressium.redsand_3": "Compressed Block Of Red Sand (3x)",
+  "block.compressium.redsand_4": "Compressed Block Of Red Sand (4x)",
+  "block.compressium.redsand_5": "Compressed Block Of Red Sand (5x)",
+  "block.compressium.redsand_6": "Compressed Block Of Red Sand (6x)",
+  "block.compressium.redsand_7": "Compressed Block Of Red Sand (7x)",
+  "block.compressium.redsand_8": "Compressed Block Of Red Sand (8x)",
+  "block.compressium.redsand_9": "Compressed Block Of Red Sand (9x)",
+
+  "block.compressium.endstone_1": "Compressed Block Of End Stone (1x)",
+  "block.compressium.endstone_2": "Compressed Block Of End Stone (2x)",
+  "block.compressium.endstone_3": "Compressed Block Of End Stone (3x)",
+  "block.compressium.endstone_4": "Compressed Block Of End Stone (4x)",
+  "block.compressium.endstone_5": "Compressed Block Of End Stone (5x)",
+  "block.compressium.endstone_6": "Compressed Block Of End Stone (6x)",
+  "block.compressium.endstone_7": "Compressed Block Of End Stone (7x)",
+  "block.compressium.endstone_8": "Compressed Block Of End Stone (8x)",
+  "block.compressium.endstone_9": "Compressed Block Of End Stone (9x)",
+
+  "block.compressium.obsidian_1": "Compressed Block Of Obsidian (1x)",
+  "block.compressium.obsidian_2": "Compressed Block Of Obsidian (2x)",
+  "block.compressium.obsidian_3": "Compressed Block Of Obsidian (3x)",
+  "block.compressium.obsidian_4": "Compressed Block Of Obsidian (4x)",
+  "block.compressium.obsidian_5": "Compressed Block Of Obsidian (5x)",
+  "block.compressium.obsidian_6": "Compressed Block Of Obsidian (6x)",
+  "block.compressium.obsidian_7": "Compressed Block Of Obsidian (7x)",
+  "block.compressium.obsidian_8": "Compressed Block Of Obsidian (8x)",
+  "block.compressium.obsidian_9": "Compressed Block Of Obsidian (9x)"
 }

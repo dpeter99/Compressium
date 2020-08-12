@@ -10,12 +10,13 @@ import net.minecraft.util.Direction;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.IWorldReader;
+import net.minecraftforge.common.ToolType;
 
 public class Netherrack extends NetherrackBlock
 {
 	public Netherrack()
 	{
-		super(Properties.create(Material.ROCK, MaterialColor.NETHERRACK).sound(SoundType.field_235589_K_).hardnessAndResistance(0.4f));
+		super(Properties.create(Material.ROCK, MaterialColor.NETHERRACK).sound(SoundType.field_235589_K_).hardnessAndResistance(0.4f).harvestTool(ToolType.PICKAXE).func_235861_h_());
 	}
 
 	@Override
