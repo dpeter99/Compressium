@@ -17,7 +17,7 @@ issueTrackerURL="https://github.com/DinnerBeef/Compressium" #optional
 # The modid of the mod
 modId="compressium" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
-version="1.16.2-1.0.4" #mandatory
+version="${file.jarVersion}" #mandatory
  # A display name for the mod
 displayName="Compressium" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
@@ -50,6 +50,6 @@ ALL HAIL THE GOD OF MODDING CPW
 [[dependencies.compressium]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.2]"
+    versionRange="[1.16.3]"
     ordering="NONE"
     side="BOTH"

@@ -13,7 +13,8 @@ public class Obsidian extends Block
 	public Obsidian()
 	{
 		super(Properties.create(Material.ROCK, MaterialColor.BLACK).hardnessAndResistance(50.0f, 1200.0F).harvestTool(ToolType.PICKAXE).func_235861_h_());
-
-
 	}
+
+
+
 }

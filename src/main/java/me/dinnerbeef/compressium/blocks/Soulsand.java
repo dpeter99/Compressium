@@ -12,4 +12,6 @@ public class Soulsand extends SoulSandBlock
 		super(Properties.create(Material.EARTH, MaterialColor.BROWN).hardnessAndResistance(0.5F).sound(SoundType.field_235586_H_).speedFactor(0.4f).harvestTool(ToolType.SHOVEL));
 
 	}
+
+
 }
