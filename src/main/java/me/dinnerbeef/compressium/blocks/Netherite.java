@@ -15,7 +15,4 @@ public class Netherite extends Block
 	{
 		super(Properties.create(Material.IRON, MaterialColor.BLACK).hardnessAndResistance(50.0F, 1200.0F).sound(SoundType.field_235594_P_).harvestTool(ToolType.PICKAXE).func_235861_h_());
 	}
-
-
-
 }

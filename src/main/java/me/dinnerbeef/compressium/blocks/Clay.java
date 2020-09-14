@@ -18,16 +18,6 @@ public class Clay extends Block
 	public Clay()
 	{
 		super(Properties.create(Material.CLAY).sound(SoundType.GROUND).hardnessAndResistance(0.6f).harvestTool(ToolType.SHOVEL));
-
-
-
-
-	}
-	@Override
-	public void onBlockClicked(BlockState state, World worldIn, BlockPos pos, PlayerEntity player) {
-		super.onBlockClicked(state, worldIn, pos, player);
-
-		player.jump();
 	}
 }
 

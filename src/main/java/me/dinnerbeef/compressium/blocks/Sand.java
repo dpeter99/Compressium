@@ -13,7 +13,6 @@ public class Sand extends FallingBlock
 	{
 		super(Properties.create(Material.SAND, MaterialColor.SAND).sound(SoundType.SAND).hardnessAndResistance(0.5f).harvestTool(ToolType.SHOVEL));
 	}
-
 	protected void onStartFalling(FallingBlockEntity fallingEntity)
 	{
 		fallingEntity.setHurtEntities(true);

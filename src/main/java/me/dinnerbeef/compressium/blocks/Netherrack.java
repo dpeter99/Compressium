@@ -18,7 +18,6 @@ public class Netherrack extends NetherrackBlock
 	{
 		super(Properties.create(Material.ROCK, MaterialColor.NETHERRACK).sound(SoundType.field_235589_K_).hardnessAndResistance(0.4f).harvestTool(ToolType.PICKAXE).func_235861_h_());
 	}
-
 	@Override
 	public boolean isFireSource(BlockState state, IWorldReader world, BlockPos pos, Direction side) {
 		return true;
