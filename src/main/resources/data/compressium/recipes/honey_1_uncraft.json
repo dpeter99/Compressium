@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compressium:honey_1"
+    }
+  ],
+  "result": {
+    "item": "minecraft:honey_block",
+    "count": 9
+  }
+}
