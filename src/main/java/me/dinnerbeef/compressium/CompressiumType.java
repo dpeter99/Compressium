@@ -29,7 +29,9 @@ public enum CompressiumType
 	COAL("coal", Coal::new),
 	REDSAND("redsand", RedSand::new),
 	ENDSTONE("endstone", Endstone::new),
-	OBSIDIAN("obsidian", Obsidian::new);
+	OBSIDIAN("obsidian", Obsidian::new),
+	LAPIS("lapis", Lapis::new),
+	REDSTONE("redstone", Redstone::new);
 
 	public static final CompressiumType[] VALUES = values();
 
