@@ -142,15 +142,15 @@
   "block.compressium.netherite_8": "压缩下界合金块 (8x)",
   "block.compressium.netherite_9": "压缩下界合金块 (9x)",
 
-  "block.compressium.coal_1": "压缩煤块 (1x)",
-  "block.compressium.coal_2": "压缩煤块 (2x)",
-  "block.compressium.coal_3": "压缩煤块 (3x)",
-  "block.compressium.coal_4": "压缩煤块 (4x)",
-  "block.compressium.coal_5": "压缩煤块 (5x)",
-  "block.compressium.coal_6": "压缩煤块 (6x)",
-  "block.compressium.coal_7": "压缩煤块 (7x)",
-  "block.compressium.coal_8": "压缩煤块 (8x)",
-  "block.compressium.coal_9": "压缩煤块 (9x)",
+  "block.compressium.coal_1": "压缩煤炭块 (1x)",
+  "block.compressium.coal_2": "压缩煤炭块 (2x)",
+  "block.compressium.coal_3": "压缩煤炭块 (3x)",
+  "block.compressium.coal_4": "压缩煤炭块 (4x)",
+  "block.compressium.coal_5": "压缩煤炭块 (5x)",
+  "block.compressium.coal_6": "压缩煤炭块 (6x)",
+  "block.compressium.coal_7": "压缩煤炭块 (7x)",
+  "block.compressium.coal_8": "压缩煤炭块 (8x)",
+  "block.compressium.coal_9": "压缩煤炭块 (9x)",
 
   "block.compressium.redsand_1": "压缩红沙 (1x)",
   "block.compressium.redsand_2": "压缩红沙 (2x)",
@@ -221,5 +221,5 @@
   "block.compressium.obsidian_7": "压缩黑曜石 (7x)",
   "block.compressium.obsidian_8": "压缩黑曜石 (8x)",
   "block.compressium.obsidian_9": "压缩黑曜石 (9x)"
-}
+
 }
