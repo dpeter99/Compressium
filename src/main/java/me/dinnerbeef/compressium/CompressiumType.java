@@ -33,7 +33,10 @@ public enum CompressiumType
 	LAPIS("lapis", Lapis::new),
 	QUARTZ("quartz", Quartz::new),
 	HONEY("honey", Honey::new),
-	REDSTONE("redstone", Redstone::new);
+	REDSTONE("redstone", Redstone::new),
+	ANDESITE("andesite", Andesite::new),
+	DIORITE("diorite", Diorite::new),
+	GRANITE("granite", Granite::new);
 
 	public static final CompressiumType[] VALUES = values();
 
